@@ -1,5 +1,6 @@
 title:              Bikky Kumar
 email:              vikspython@gmail.com
+form_name:          mdoyoblo
 description:        A Blog Theme by Start Bootstrap
 author:             Bikky
 baseurl:            ""
@@ -7,9 +8,9 @@ url:                "https://bkumar86.github.io"
 
 # Social Profiles
 twitter_username:
-github_username:
+github_username: bkumar86
 facebook_username:
-instagram_username:  
+instagram_username:
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics

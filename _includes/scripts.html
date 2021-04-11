@@ -6,7 +6,7 @@
 
 {% if page.url contains 'contact' %}
   <!-- Form Validation -->
-  <script src="{{"/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" | relative_url }}"></script>
+  <!-- <script src="{{"/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" | relative_url }}"></script> -->
   <!-- Send Form -->
   <script>
     $(function () {
@@ -31,7 +31,8 @@
           $this = $("#sendMessageButton");
           $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
           $.ajax({
-            url: "//formspree.io/{{ site.email }}",
+            url: "//formspree.io/f/{{ site.form_name }}",
+            // url: "//formspree.io/f/mdoyoblo",
             type: "POST",
             data: {
               name: name,
