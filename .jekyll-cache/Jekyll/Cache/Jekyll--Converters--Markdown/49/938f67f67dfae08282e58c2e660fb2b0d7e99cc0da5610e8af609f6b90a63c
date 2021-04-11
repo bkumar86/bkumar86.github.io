@@ -1,4 +1,4 @@
-I"ô<h2 id="this-is-a-trial-file-for-markdown">This is a trial file for markdown</h2>
+I"Ü<h2 id="this-is-a-trial-file-for-markdown">This is a trial file for markdown</h2>
 
 <h3 id="this-is-first-paragraph-with-smaller-font-size">This is first paragraph with smaller font size</h3>
 
@@ -58,15 +58,17 @@
 </code></pre></div></div>
 
 <p>Some basic Git commands are:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git status
-git add
-git commit
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">git</span> <span class="n">status</span>
+<span class="n">git</span> <span class="n">add</span>
+<span class="n">git</span> <span class="n">commit</span>
 </code></pre></div></div>
 
 <p><del>this</del></p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">foo</span>
-  <span class="nb">puts</span> <span class="s1">'foo'</span>
-<span class="k">end</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
 
 :ET
